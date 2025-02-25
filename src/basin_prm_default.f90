@@ -43,6 +43,7 @@
          bsn_prm%petco_pmpt = (100. + bsn_prm%petco_pmpt) / 100.    !! convert to fraction
          if (bsn_prm%uhalpha < 1.e-6) bsn_prm%uhalpha = 1.0       !! alpha coeff for est unit hydrograph using gamma func
          if (bsn_prm%eros_spl < 1.e-6) bsn_prm%eros_spl = 0.      !! coeff of splash erosion varying 0.9-3.1 
+!! change for me
          if (bsn_prm%rill_mult < 1.e-6) bsn_prm%rill_mult = 0.    !! 
          if (bsn_prm%eros_expo < 1.e-6) bsn_prm%eros_expo = 0.    !!
          if (bsn_prm%c_factor < 1.e-6) bsn_prm%c_factor = 0.      !!
